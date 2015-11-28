@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+}
+
+/* HEADER */
+
+#Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    color: white;
+    background: #222630 url("../img/overlay.png") repeat scroll 0% 0%;
+    box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+#Header .top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#Personal{
+    position: fixed;
+    margin: 1.75em 1.5em 1.5em 1.5em;
+    min-height: 48px;
+}
+
+#Nav ul li a {
+    top: 225px;
+    position: relative;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+    }
+
+#Nav ul li a span {
+    position: relative;
+    display: block;
+    font-size: 30px;
+}
+
+#Nav ul li a span:before {
+    position: absolute;
+    left: 0;
+    color: #41484c;
+    text-align: center;
+    width: 1.25em;
+    line-height: 1.75em;
+}
+
+#Nav ul li a.active {
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+    color: #fff;
+}
+
+#Nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+    color: #fff;
+}
+
+#Nav ul li a.active span:before {
+    color: #e27689;
+}
+
+
+#Icon{
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    height: 32px;
+    width: 32px;
+}
+
+
+#Social{
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 230px;
+    left: 60px;
+}
+
+#Social img{
+    left: 0;
+    margin-top: 10px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    margin-right: 33.5px;
+}
+
+#Social img:hover{
+    opacity: 0.5;
+}
+
+/* HEADER end */
+
+
+/* BACKGROUND */
+
+#Main{
+    margin-left: 350px;
+}
+
+#Top{
+    margin: 0;
+    overflow: hidden;
+    padding: 4em 0;
+   -moz-box-shadow:  1px 1px 10px 0px #656565;
+-webkit-box-shadow:  1px 1px 10px 0px #656565;
+-o-box-shadow:  1px 1px 10px 0px #656565;
+box-shadow:  1px 1px 10px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=10);
+    background-image: url("../img/bg2.png");
+    min-height: 400px;
+}
+
+#Name{
+    position: relative;
+    text-align: center;
+    font: 900 72px Arial;
+    color: #dddddd;
+    top: 150px;
+}
+
+#Slogan{
+    font: italic 35px Arial;
+    text-align: center;
+    color: #dddddd;
+}
+
+/* BACKGROUND end */
+
+
+/* PORTFOLIO */ 
+
+#Portfolio{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Portfolio > #Title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #666;
+}
+
+#Portfolio > #Content{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #888;
+}
+
+#Slides-Form{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 30px;
+}
+
+#Box{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    min-height: 200px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    tex
+}
+
+#Box-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 65%;
+    width: 95%;
+    border-radius: 2px;
+}
+
+#Box-img:hover{
+    opacity: 0.75;
+}
+
+
+
+/* PORTFOLIO end */ 
+
+
+/* ABOUT ME */
+
+#About{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#About > #Title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #666;
+}
+
+#About > #Content{
+    line-height: 1em;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #888;
+}
+
+/* ABOUT ME end */
+
+/* CONTACT ME */
+
+#Contact{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Contact > #Title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #666;
+}
+
+#Contact > #Content{
+    line-height: 1em;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #888;
+}
+
+/* CONTACT ME end */
+
+footer{
+    height: 50px;
+    background: #222630 url("../img/overlay.png") repeat scroll 0% 0%;
+    width: 100%;
+    bottom: 0px;
+    text-align: right;
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#Me{
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    left: 130px;
+}
+

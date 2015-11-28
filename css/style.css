@@ -271,6 +271,32 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, St
 
 /* ABOUT ME end */
 
+/* Skills */
+
+#Skills{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Skills > #Title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #666;
+}
+
+#Skills > #Content{
+    line-height: 1em;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: #888;
+}
+
+/* ABOUT ME end */
+
 /* CONTACT ME */
 
 #Contact{
@@ -318,3 +344,8 @@ footer{
     left: 130px;
 }
 
+#P{
+    max-width: 50px;
+    border-color: #F05F40;
+    border-width: 3px;
+}

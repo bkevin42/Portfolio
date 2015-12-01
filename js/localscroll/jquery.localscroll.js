@@ -61,6 +61,7 @@
 				var d = settings.duration;
 				delete settings.duration;
 				$(settings.target).scrollTo( 0, settings );
+			
 				settings.duration = d;
 			}
 			scroll( 0, location, settings );
@@ -104,7 +105,7 @@
 		var $target = $( settings.target );
 
 		if( settings.lock && $target.is(':animated') ||
-			settings.onBefore && settings.onBefore.call(settings, e, elem, $target) === false ) 
+			settings.onBefore && settings.onBefore.call(settings, e, elem, $target) === false )
 			return;
 
 		if( settings.stop )
@@ -124,7 +125,7 @@
 			$a.remove();
 			elem[attr] = id;
 		}
-			
+
 		$target
 			.scrollTo( elem, settings ) // do scroll
 			.trigger('notify.serialScroll',[elem]); // notify serialScroll about this change
